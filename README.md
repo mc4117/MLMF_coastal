@@ -1,8 +1,8 @@
 # MLMF_coastal
 
-This repository provides a Python wrapper to implement the Multilevel Multifidelity Monte Carlo method (MLMF).
+This repository provides a Python wrapper to implement the Multilevel Multifidelity Monte Carlo method (MLMF). It is the accompanying repository for "Clare, M. C., Leijnse, T. W., McCall, R. T., Diermanse, F. L., Cotter, C. J., & Piggott, M. D. (2022). Multilevel multifidelity Monte Carlo methods for assessing coastal flood risk." submitted to Natural Hazards and Earth System Sciences.
 
-Here this wrapper has been implemented around the high fidelity model XBeach and the low fidelity model SFINCS to assess uncertainty in coastal problems.
+Here the Python wrapper has been implemented around the high fidelity model XBeach and the low fidelity model SFINCS to assess uncertainty in coastal problems.
 
 The functions to implement MLMF are stored in `mlmf_fns_multi.py`, a copy of which is included in every test case folder. Note this wrapper is model independent and thus it can be easily implemented with different models simply by changing the `fidelity_fns_*.py` file.
 
